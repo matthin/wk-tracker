@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "WaniKani Tracker",
+  "version": "0.0.1",
+
+  "description": "Tracks WaniKani review sessions.",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.wanikani.com/review"],
+      "js": ["dst/index.js"]
+    }
+  ],
+
+  "permissions": [
+    "storage"
+  ]
+}

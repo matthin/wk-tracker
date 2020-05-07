@@ -1,0 +1,17 @@
+{
+  "name": "wanikani-tracker",
+  "version": "0.0.1",
+  "author": "matthin",
+  "license": "GPL-3.0",
+  "description": "Tracks WaniKani review sessions.",
+  "scripts": {
+    "watch": "tsc --watch",
+    "start:firefox": "web-ext run",
+    "build:firefox": "echo TODO"
+  },
+  "devDependencies": {
+    "typescript": "^3.8",
+    "web-ext": "^4.2",
+    "web-ext-types": "^3.2"
+  }
+}
