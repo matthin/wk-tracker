@@ -49,5 +49,5 @@ async function setStorage(k: number, v: any): Promise<void> {
   const sessionDate = document.querySelector("#last-session-date time")
                               ?.getAttribute("datetime")!;
   
-  await saveSession(correct, incorrect, new Date(sessionDate));
+  await saveSession(correct, incorrect, new Date(sessionDate)); 
 })();
